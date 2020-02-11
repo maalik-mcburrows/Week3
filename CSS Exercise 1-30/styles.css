@@ -1,0 +1,31 @@
+html{
+    font-size: 24px;
+}
+
+/* .filler{
+    margin: 0 auto
+    max-width: 300px
+} */
+
+.filler{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+h1{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.m5_pics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.m5_pics .photo1{
+  align-items: stretch;
+  list-style: none;
+}
+

@@ -1,0 +1,77 @@
+/* selector hierarchy:
+            1. Type -- i.e.: filler
+            2. Class -- i.e.: .body_text
+            3. I.D. -- i.e.: #content_header */
+
+
+/* body{
+    background-color:#80431B;
+    justify-content: center;
+    align-items: center;
+} */
+
+.everything{
+    /* position: relative; */
+    background-color:#80431B;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.the_box{
+    background-color: orange;
+    /* display: flex; */
+    /* max-width: 75%; */
+    /* margin: auto; */
+    padding: 10px;
+    height: 500px;
+    width: 100%;
+    flex-grow: 1;
+    /* position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-17%,15%); */ 
+/* Look up flex videos to figure out how to get this thing to auto align */
+}
+
+.header_links{
+    /* display: flex; */
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+.left_links img {
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+}
+
+.l_links{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.r_links{
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    list-style-type: none;
+}
+
+.background_headphones{
+opacity: 0.5;
+max-width: 75%;
+float: right;
+margin-left: 100%;
+margin-right: -25%;
+opacity: 0.2;
+}
+
+.background_logo img{
+    opacity: 0.5;
+    float: left;
+    max-width: 100%;
+}
+
+
+/* <img src="images/beats-logo.jpg" alt="beats logo that links to the homepage"> */
